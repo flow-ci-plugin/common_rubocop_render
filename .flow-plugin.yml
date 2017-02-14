@@ -23,6 +23,6 @@ inputs:
 
 
 outputs:
-  - FLOW_RUBOCOP_RENDER_URL
+  - name: FLOW_RUBOCOP_RENDER_URL
 
 script_path: ./run.sh
