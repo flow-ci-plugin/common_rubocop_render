@@ -1,6 +1,6 @@
 name: rubocop_plugin_render
 version: 0.0.1
-language: 
+language: ruby 
 description: Render for rubocop result
 tags:
  - ruby
