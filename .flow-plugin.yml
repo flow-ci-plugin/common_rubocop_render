@@ -1,0 +1,28 @@
+name: rubocop_plugin_render
+version: 0.0.1
+language: 
+description: Render for rubocop result
+tags:
+ - ruby
+ - rubocop
+ - format
+ - result
+ - analyzer
+ - plugin
+
+public: true
+
+# clone_in_docker: false
+
+inputs:
+  - name: FLOW_RUBOCOP_LOG_PATH
+    editable: true
+
+  - name: FLOW_PROJECT_ID
+    editable: false
+
+
+outputs:
+  - FLOW_RUBOCOP_RENDER_URL
+
+script_path: ./run.sh
